@@ -1,0 +1,13 @@
+*{
+	background-color:black;
+}
+
+.navbar{
+    font: 2em sans-serif;
+    font-weight: bolder;
+    text-align: center;
+
+}
+h2{
+	color:gold;
+}

@@ -1,0 +1,33 @@
+@keyframes changeColor1{
+    20%{
+        color:grey;
+    }
+    40%{
+        color:silver;
+    }
+    60%{
+    color:lightgrey;
+    }
+}
+h1{
+    font: 5vh sans-serif;
+    font-weight: bold;
+    text-align-last: center;
+    font-size: 2rem;
+    align-items: center;
+    animation: changeColor1 5s infinite alternate;
+
+}
+.navbar{
+    font: 2em sans-serif;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.backgrounding{
+    background: images("cyberware.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}

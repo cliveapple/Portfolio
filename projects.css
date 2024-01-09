@@ -1,0 +1,99 @@
+.container{
+display:flex;
+padding-bottom:10px;
+}
+@keyframes changeColor1{
+	10%{
+        color:grey;
+    }
+    40%{
+        color:silver;
+    }
+    60%{
+    color:lightgrey;
+    }
+}
+.container2{
+	display:flex;
+	padding-bottom:10px;
+}
+
+.container3{ 
+	display:flex;
+	padding-bottom:10px;
+}
+.h1{
+	font-size:2em;
+	
+}
+.tbox3{
+	color:purple;
+	padding:10px;
+	font-size:1.5em;
+}
+.tbox2{
+	color:purple;
+	padding:10px;
+	font-size:1.5em;
+	
+}
+.tbox1{
+	
+	color:purple;
+	display:far-right;
+	padding:10px;
+	font-size:1.5em;
+	
+	}
+
+
+.navbar{
+    font: 2em sans-serif;
+    font-weight: bolder;
+    text-align: center;
+
+}
+
+
+
+.tbox1{ 
+        font-size: 1.5rem;
+        align-items: center;
+        animation: changeColor1 5s infinite alternate;
+    }
+    
+.tbox2{
+		
+	    font-size: 1.5rem;
+        align-items: center;
+        animation: changeColor1 5s infinite alternate;
+}
+.tbox3{
+		
+	    font-size: 1.5rem;
+        align-items: center;
+        animation: changeColor1 5s infinite alternate;
+}
+
+
+
+.tbox4{
+		
+		color:purple;
+	    font-size: 1.5rem;
+        align-items: center;
+        animation: changeColor1 5s infinite alternate;
+}
+
+.welcome{
+	color:gold;
+}
+
+
+*{
+	background-color:black;
+}
+
+
+
+
