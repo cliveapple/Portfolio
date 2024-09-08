@@ -1,0 +1,53 @@
+
+@keyframes changeColor1{
+	20%{
+		color:aqua;
+	}
+    40%{
+        color:white;
+    }
+    60%{
+    color:neon;
+    }
+}
+.greet{
+	font: 5vh sans-serif;
+    font-weight: bold;
+	font-size: 1.5rem;
+	
+	
+	
+}
+
+h2{
+	font: 5vh sans-serif;
+    font-weight: bold;
+	font-size: 1.5rem;
+	animation: changeColor1 6s infinite alternate;
+
+}
+	
+*{
+	background:silver;
+}
+h1{
+    font: 5vh sans-serif;
+    font-weight: bold;
+    text-align-last: center;
+    font-size: 2rem;
+    align-items: center;
+    animation: changeColor1 6s infinite alternate;
+
+}
+.navbar{
+    font: 1.5rem sans-serif;
+    font-weight: bolder;
+    text-align: center;
+
+}
+.backgrounding{
+    background: images("cyberware.jpg");
+    background-size: 100%;
+	image-absolute: center;
+
+}
